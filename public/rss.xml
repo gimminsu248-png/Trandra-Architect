@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Trandra Architect Indicator Guide</title>
+  <link>https://trandra-architect.pages.dev</link>
+  <description>Professional TradingView Indicator Library & Pine Script Generator</description>
+  <language>ko-KR</language>
+  <lastBuildDate>Mon, 09 Feb 2026 16:19:58 GMT</lastBuildDate>
+  <item>
+    <title>EMA (지수 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema</link>
+    <description>단순 이동 평균의 지연 현상을 극복하여 최근 시장 변화를 가장 빠르게 포착하는 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema</guid>
+  </item>
+  <item>
+    <title>SMA (단순 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sma</link>
+    <description>가장 오래되고 가장 널리 쓰이는 기본 중의 기본, 시장의 기준선입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sma</guid>
+  </item>
+  <item>
+    <title>WMA (가중 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=wma</link>
+    <description>각 데이터 포인트에 중요도를 차등 배분하여 EMA와 SMA 사이의 균형을 잡은 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=wma</guid>
+  </item>
+  <item>
+    <title>VWMA (거래량 가중 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vwma</link>
+    <description>가격과 거래량을 결합하여, 실질적인 세력의 개입 여부를 판단하는 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vwma</guid>
+  </item>
+  <item>
+    <title>HMA (헐 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=hma</link>
+    <description>앨런 헐이 개발한 지표로, 지연(Lag)을 획기적으로 줄이면서도 시각적 곡선이 매우 매끄럽습니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=hma</guid>
+  </item>
+  <item>
+    <title>DEMA (이중 지수 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=dema</link>
+    <description>두 개의 EMA를 결합하여 지연 시간을 대폭 줄인 이동평균입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=dema</guid>
+  </item>
+  <item>
+    <title>TEMA (삼중 지수 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=tema</link>
+    <description>DEMA보다 한 단계 더 나아가 세 겹의 EMA 필터를 사용하는 초강력 이동평균입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=tema</guid>
+  </item>
+  <item>
+    <title>ALMA (아르노 르구 이동 평균)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=alma</link>
+    <description>가우시안 분포를 적용하여 지연과 매끄러움의 "황금비"를 찾은 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=alma</guid>
+  </item>
+  <item>
+    <title>Bollinger Bands (볼린저 밴드)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=bb</link>
+    <description>가격의 95%가 머무는 통계적 채널을 통해 돌파와 회귀를 동시에 분석합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=bb</guid>
+  </item>
+  <item>
+    <title>Donchian Channels (돈치안 채널)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=donchian</link>
+    <description>설정 기간 내의 최고점과 최저점을 연결하여 "진짜 돌파"를 잡아내는 도구입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=donchian</guid>
+  </item>
+  <item>
+    <title>Keltner Channels (켈트너 채널)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=keltner</link>
+    <description>단순한 편차가 아닌 ATR(실제 변동폭)을 채널의 비중으로 사용하는 고급 도구입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=keltner</guid>
+  </item>
+  <item>
+    <title>Supertrend (슈퍼트렌드)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=supertrend</link>
+    <description>색상과 선을 통해 현재 내가 매수해야 할지 매도해야 할지를 즉각적으로 보여줍니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=supertrend</guid>
+  </item>
+  <item>
+    <title>Ichimoku Cloud (일목균형표)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ichimoku</link>
+    <description>과거, 현재, 미래의 지지와 저항을 "구름대"라는 하나의 그림으로 통합한 강력한 시스템입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ichimoku</guid>
+  </item>
+  <item>
+    <title>Parabolic SAR (파라볼릭 SAR)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=psar</link>
+    <description>가격을 따라다니는 점(Stop and Reverse)을 통해 추세의 끝을 예고합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=psar</guid>
+  </item>
+  <item>
+    <title>VWAP (거래량 가중 평균 가격)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vwap</link>
+    <description>당일 거래된 모든 물량의 평균 단가를 계산하여 "진짜 가치"를 보여줍니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vwap</guid>
+  </item>
+  <item>
+    <title>Pivot Points (피봇 포인트)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=pivot</link>
+    <description>전일 데이터를 바탕으로 오늘의 심리적 마지노선을 그어줍니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=pivot</guid>
+  </item>
+  <item>
+    <title>McGinley Dynamic</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mcginley</link>
+    <description>시장이 너무 빠르면 같이 빨라지고, 느려지면 같이 느려지는 지능형 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mcginley</guid>
+  </item>
+  <item>
+    <title>Williams Fractals (프랙탈)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=fractals</link>
+    <description>캔들 패턴 속에서 가격의 상단과 하단이 고정되는 지점을 포착합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=fractals</guid>
+  </item>
+  <item>
+    <title>Zig Zag High Low</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=zigzag</link>
+    <description>잔파동을 모두 무시하고 굵직한 추세의 변동만 연결하여 보여줍니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=zigzag</guid>
+  </item>
+  <item>
+    <title>RSI (상대 강도 지수)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=rsi</link>
+    <description>상승폭과 하락폭을 비교하여 현재 시장의 과열 여부를 판단하는 필수 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=rsi</guid>
+  </item>
+  <item>
+    <title>MACD (이동평균 수렴확산 지수)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=macd</link>
+    <description>가장 신뢰도 높은 두 이동평균선의 관계를 통해 중장기 추세의 변화를 포착합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=macd</guid>
+  </item>
+  <item>
+    <title>Stochastic (스토캐스틱)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch</link>
+    <description>현재 가격이 일정 기간의 가격 변동폭 중 어디에 위치하는지를 백분율로 나타냅니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch</guid>
+  </item>
+  <item>
+    <title>Stochastic RSI</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch_rsi</link>
+    <description>RSI 지표에 스토캐스틱 공식을 대입하여 속도를 극한으로 끌어올린 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch_rsi</guid>
+  </item>
+  <item>
+    <title>ATR (평균 실질 변동폭)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=atr</link>
+    <description>시장의 방향이 아닌 "변동성의 크기"를 측정하여 손절과 익절 폭을 계산합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=atr</guid>
+  </item>
+  <item>
+    <title>CCI (상품 채널 지수)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=cci</link>
+    <description>가격이 이동평균으로부터 얼마나 멀리 떨어져 있는지를 측정하여 통계적 과열을 진단합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=cci</guid>
+  </item>
+  <item>
+    <title>ADX (평균 방향성 지수)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=adx</link>
+    <description>시장의 방향이 아닌, 추세가 얼마나 강력한지를 수치(0~100)로 보여줍니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=adx</guid>
+  </item>
+  <item>
+    <title>Aroon (아룬)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=aroon</link>
+    <description>신고가나 신저가가 발생한 시간을 추적하여 추세 시작을 알립니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=aroon</guid>
+  </item>
+  <item>
+    <title>OBV (거래량 균형 지표)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=obv</link>
+    <description>가격 변동과 거래량을 합산하여 매집과 분산을 추적합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=obv</guid>
+  </item>
+  <item>
+    <title>MFI (자금 흐름 지수)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mfi</link>
+    <description>RSI의 계산 방식에 거래량을 추가하여 신뢰도를 높인 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mfi</guid>
+  </item>
+  <item>
+    <title>Williams %R</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=wpr</link>
+    <description>스토캐스틱의 역산 버전으로 고점에서 얼마나 떨어졌는지 보여줍니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=wpr</guid>
+  </item>
+  <item>
+    <title>Awesome Oscillator (AO)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=awesome</link>
+    <description>두 이동평균의 차이를 히스토그램으로 나타낸 빌 윌리엄스의 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=awesome</guid>
+  </item>
+  <item>
+    <title>Momentum (모멘텀)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mom</link>
+    <description>현재 가격과 과거 일정 시점의 가격 차이를 직접 계산합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mom</guid>
+  </item>
+  <item>
+    <title>Chaikin Volatility</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=chaikin</link>
+    <description>고가와 저가의 거리 변화를 통해 변동성 급증을 포착합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=chaikin</guid>
+  </item>
+  <item>
+    <title>Vortex Indicator (VI)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vortex</link>
+    <description>상승(VI+)과 하락(VI-) 파동의 힘을 비교하여 새로운 추세의 시작점을 포착합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vortex</guid>
+  </item>
+  <item>
+    <title>Percentage Price Oscillator (PPO)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ppo</link>
+    <description>가격이 아닌 등락률(%)을 기반으로 하여 서로 다른 자산 간의 모멘텀을 비교할 수 있습니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ppo</guid>
+  </item>
+  <item>
+    <title>SMI Ergodic</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=smi</link>
+    <description>TSI(True Strength Index)를 개량하여 거짓 신호를 줄이고 추세의 본질만 남겼습니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=smi</guid>
+  </item>
+  <item>
+    <title>Mass Index</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mass</link>
+    <description>고가와 저가의 변동폭(Range)이 팽창했다가 수축하는 패턴을 통해 추세 반전을 예고합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mass</guid>
+  </item>
+  <item>
+    <title>TRIX (Triple Exponential)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=trix</link>
+    <description>지수 이동평균을 세 번이나 계산하여 미세한 파동을 모두 제거한 장기 추세 지표입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=trix</guid>
+  </item>
+  <item>
+    <title>Coppock Curve</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=coppock</link>
+    <description>장기 투자자를 위해 개발된 지표로, 시장의 침체가 끝나고 새로운 강세장이 시작됨을 알립니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=coppock</guid>
+  </item>
+  <item>
+    <title>Choppiness Index</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=chop</link>
+    <description>시장의 방향이 아니라 "혼잡도(Choppiness)"를 측정합니다. 추세 매매를 해도 되는지 판단하는 필터입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=chop</guid>
+  </item>
+  <item>
+    <title>CVD (Cumulative Volume Delta)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp01_cvd</link>
+    <description>단순 거래량이 아닌 매수와 매도의 "체결 강도 차이"를 누적하여 세력의 의도를 파악합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp01_cvd</guid>
+  </item>
+  <item>
+    <title>FVG (Fair Value Gap)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp02_fvg</link>
+    <description>기관의 급격한 주문으로 인해 체결되지 않고 넘어간 가격 공백을 찾아냅니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp02_fvg</guid>
+  </item>
+  <item>
+    <title>Order Blocks (오더 블록)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp03_ob</link>
+    <description>기관 투자자들이 물량을 모으기 위해 인위적으로 만든 마지막 하락(혹은 상승) 캔들입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp03_ob</guid>
+  </item>
+  <item>
+    <title>Z-Score Analysis</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp04_zscore</link>
+    <description>현재 가격이 평균으로부터 얼마나 비정상적으로(표준편차 배수) 떨어져 있는지 계산합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp04_zscore</guid>
+  </item>
+  <item>
+    <title>Squeeze Momentum (스퀴즈)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp05_squeeze</link>
+    <description>볼린저 밴드가 켈트너 채널 안으로 들어가는 '수축' 현상을 포착하여 곧 있을 대폭발을 예고합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp05_squeeze</guid>
+  </item>
+  <item>
+    <title>Liquidation HeatMap (청산 히트맵)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp06_liq</link>
+    <description>레버리지 트레이더들의 강제 청산 물량이 몰려있는 가격대를 시각화하여 지지/저항을 예측합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp06_liq</guid>
+  </item>
+  <item>
+    <title>Funding Rate &amp; OI (펀딩비/미결제약정)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp07_funding</link>
+    <description>선물 시장의 과열 여부(펀딩비)와 자금 유입 여부(미결제약정)를 통해 추세 지속성을 판별합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp07_funding</guid>
+  </item>
+  <item>
+    <title>ADR Projections (일일 변동폭 예측)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp08_adr</link>
+    <description>과거 데이터를 기반으로 오늘의 예상 고점(High)과 저점(Low)을 확률적으로 계산합니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp08_adr</guid>
+  </item>
+  <item>
+    <title>Volume Profile (매물대)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp09_vp</link>
+    <description>특정 가격대에서 얼마나 많은 거래가 일어났는지를 가로 막대그래프로 보여줍니다. 진짜 지지와 저항을 찾는 도구입니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp09_vp</guid>
+  </item>
+  <item>
+    <title>Divergence Engine (다이버전스 엔진)</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp10_div</link>
+    <description>RSI, MACD, OBV 등 주요 지표의 다이버전스를 실시간으로 자동 스캔하여 알림을 줍니다.</description>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp10_div</guid>
+  </item>
+</channel>
+</rss>
