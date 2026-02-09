@@ -61,18 +61,28 @@ function App() {
   const [selectedIndicatorId, setSelectedIndicatorId] = useState(null);
 
   // URL Parameter Routing & SEO Logic
+  // URL Parameter Routing & SEO Logic
   useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const tab = params.get('tab');
-    const id = params.get('id');
+    const handlePopState = () => {
+      const params = new URLSearchParams(window.location.search);
+      const tab = params.get('tab');
+      const id = params.get('id');
 
-    if (tab === 'guide') {
-      setActiveTab(2);
-      if (id) setSelectedIndicatorId(id);
-    } else {
-      setActiveTab(1);
-      setSelectedIndicatorId(null);
-    }
+      if (tab === 'guide') {
+        setActiveTab(2);
+        setSelectedIndicatorId(id || null);
+      } else {
+        setActiveTab(1);
+        setSelectedIndicatorId(null);
+      }
+    };
+
+    // Run on mount
+    handlePopState();
+
+    // Listen for Back/Forward buttons
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
   useEffect(() => {
@@ -82,8 +92,14 @@ function App() {
       if (selectedIndicatorId) params.set('id', selectedIndicatorId);
     }
 
-    const newUrl = params.toString() ? `?${params.toString()}` : window.location.pathname;
-    window.history.pushState({}, '', newUrl);
+    const newQuery = params.toString();
+    const currentQuery = window.location.search.slice(1);
+
+    // Only push state if the query actually changed to avoid History Trap
+    if (newQuery !== currentQuery) {
+      const newUrl = newQuery ? `?${newQuery}` : window.location.pathname;
+      window.history.pushState({}, '', newUrl);
+    }
 
     // Dynamic Title for SEO
     if (activeTab === 2 && selectedIndicatorId) {
