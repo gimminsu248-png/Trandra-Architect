@@ -6,12 +6,12 @@
   <link>https://trandra-architect.pages.dev</link>
   <description>전문 트레이딩뷰 지표 라이브러리 및 파인스크립트 생성기</description>
   <language>ko-KR</language>
-  <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-  <lastBuildDate>Tue, 10 Feb 2026 15:56:51 +0900</lastBuildDate>
+  <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+  <lastBuildDate>Fri, 13 Feb 2026 23:24:59 +0900</lastBuildDate>
   <dc:creator>Trandra Architect</dc:creator>
   <item>
     <title>EMA (지수 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema&amp;lang=ko</link>
     <description><![CDATA[단순 이동 평균의 지연 현상을 극복하여 최근 시장 변화를 가장 빠르게 포착하는 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -37,14 +37,14 @@
         <p><strong>장점:</strong> SMA보다 지연 시간이 짧아 최신 트렌드 반영에 탁월합니다.<br>
         <strong>주의:</strong> 횡보장(Box권)에서는 가격이 선 위아래를 반복해서 관통하며 '가짜 신호(Whipsaw)'를 많이 내보낼 수 있으므로 다른 보조지표와 병행해야 합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>SMA (단순 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sma</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sma&amp;lang=ko</link>
     <description><![CDATA[가장 오래되고 가장 널리 쓰이는 기본 중의 기본, 시장의 기준선입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -69,14 +69,14 @@
         <p><strong>장점:</strong> 전 세계 수많은 트레이더와 기관이 참고하므로 '심리적 지지/저항'의 실효성이 매우 높습니다.<br>
         <strong>주의:</strong> 지연 시간(Lag)이 길기 때문에 급격한 변동성 장세에서는 신호가 늦게 나타날 수 있습니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sma</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sma&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>WMA (가중 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=wma</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=wma&amp;lang=ko</link>
     <description><![CDATA[각 데이터 포인트에 중요도를 차등 배분하여 EMA와 SMA 사이의 균형을 잡은 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -86,14 +86,14 @@
         <h3>3. 전략 가이드</h3>
         <p>가격이 WMA를 상향 돌파하며 기울기가 위로 꺾일 때를 매집 구간으로 잡습니다. 기울기 자체가 추세의 강도를 의미하므로, 평평해지는 시점이 오면 수익 실현을 고려해야 합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=wma</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=wma&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>VWMA (거래량 가중 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vwma</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vwma&amp;lang=ko</link>
     <description><![CDATA[가격과 거래량을 결합하여, 실질적인 세력의 개입 여부를 판단하는 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -106,14 +106,14 @@
         <h3>3. 추천 전략</h3>
         <p>SMA(단순)와 VWMA(거래량 가중)를 동시에 띄워보세요. 상승장에서 VWMA가 SMA 위에 위치한다면 이는 강력한 홀딩 신호입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vwma</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vwma&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>HMA (헐 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=hma</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=hma&amp;lang=ko</link>
     <description><![CDATA[앨런 헐이 개발한 지표로, 지연(Lag)을 획기적으로 줄이면서도 시각적 곡선이 매우 매끄럽습니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -123,14 +123,14 @@
         <h3>3. 주의사항</h3>
         <p>너무 빠르기 때문에 추세 초입에서는 이득이지만, 횡보장에서는 너무 자주 꺾여 잦은 손절을 유발할 수 있습니다. 필터링 지표(ADX 등)와 결합이 필수적입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=hma</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=hma&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>DEMA (이중 지수 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=dema</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=dema&amp;lang=ko</link>
     <description><![CDATA[두 개의 EMA를 결합하여 지연 시간을 대폭 줄인 이동평균입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -145,14 +145,14 @@
         <h3>4. 장점 및 주의사항</h3>
         <p><strong>장점:</strong> 반응 속도가 어떤 이동평균보다 빠릅니다.<br><strong>주의:</strong> 변동성이 심한 횡보장에서는 가짜 신호(Noise)가 많아질 수 있으므로 반드시 거래량 지표와 함께 사용하십시오.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=dema</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=dema&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>TEMA (삼중 지수 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=tema</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=tema&amp;lang=ko</link>
     <description><![CDATA[DEMA보다 한 단계 더 나아가 세 겹의 EMA 필터를 사용하는 초강력 이동평균입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -162,14 +162,14 @@
         <h3>3. 실전 전략</h3>
         <p>TEMA가 가격 위아래로 빈번하게 움직이는 것을 방어하기 위해 '기울기 돌파' 전략을 사용하세요. 선의 각도가 30도 이상 가팔라질 때만 추세로 인정하는 방식이 유효합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=tema</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=tema&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>ALMA (아르노 르구 이동 평균)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=alma</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=alma&amp;lang=ko</link>
     <description><![CDATA[가우시안 분포를 적용하여 지연과 매끄러움의 "황금비"를 찾은 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -179,14 +179,14 @@
         <h3>3. 전문가 활용 팁</h3>
         <p>ALMA의 매끄러운 곡선은 추세 추종 시 '스탑로스'의 기준선으로 활용하기 좋습니다. 시세가 ALMA를 하향 돌파하기 전까지는 추세가 죽지 않았다고 판단하는 홀딩 전략에 최적입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=alma</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=alma&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Bollinger Bands (볼린저 밴드)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=bb</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=bb&amp;lang=ko</link>
     <description><![CDATA[가격의 95%가 머무는 통계적 채널을 통해 돌파와 회귀를 동시에 분석합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -199,14 +199,14 @@
         <h3>3. 실전 전략</h3>
         <p>밴드 상단을 타고 올라가는 '밴드 워킹'이 발생하면 추세 추종을, 밴드 밖으로 튀어나갔다 안으로 급히 돌아오면 '역추세 매매'를 고려하세요.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=bb</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=bb&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Donchian Channels (돈치안 채널)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=donchian</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=donchian&amp;lang=ko</link>
     <description><![CDATA[설정 기간 내의 최고점과 최저점을 연결하여 "진짜 돌파"를 잡아내는 도구입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -221,14 +221,14 @@
         <h3>4. 해석 노하우</h3>
         <p>채널의 너비가 평평하고 좁게 유지되다 갑자기 상단선이 위로 꺾일 때가 가장 강력한 '빅 무브'의 시작점입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=donchian</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=donchian&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Keltner Channels (켈트너 채널)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=keltner</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=keltner&amp;lang=ko</link>
     <description><![CDATA[단순한 편차가 아닌 ATR(실제 변동폭)을 채널의 비중으로 사용하는 고급 도구입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -238,14 +238,14 @@
         <h3>3. 볼린저 밴드와의 차이</h3>
         <p>볼린저 밴드는 통계적 표준편차를 사용하여 급격하게 팽창/수축하지만, 켈트너 채널은 ATR을 사용하므로 훨씬 안정적이고 일관된 채널 폭을 유지합니다. 잦은 가격 노이즈를 피하고 싶은 트레이더에게 적합합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=keltner</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=keltner&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Supertrend (슈퍼트렌드)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=supertrend</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=supertrend&amp;lang=ko</link>
     <description><![CDATA[색상과 선을 통해 현재 내가 매수해야 할지 매도해야 할지를 즉각적으로 보여줍니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -260,14 +260,14 @@
         <h3>4. 주의점</h3>
         <p>강한 추세장에서는 무적에 가깝지만, 가격이 위아래로 흔들리는 횡보장에서는 잦은 색상 변화로 손실을 줄 수 있습니다. 반드시 거래량이나 상위 시간대 차트와 병행하십시오.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=supertrend</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=supertrend&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Ichimoku Cloud (일목균형표)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ichimoku</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ichimoku&amp;lang=ko</link>
     <description><![CDATA[과거, 현재, 미래의 지지와 저항을 "구름대"라는 하나의 그림으로 통합한 강력한 시스템입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -280,14 +280,14 @@
         <h3>3. 사용 팁</h3>
         <p>가격이 구름대에 갇혀 있을 때는 '혼조세'이므로 매매를 쉬는 것이 계좌를 지키는 비결입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ichimoku</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ichimoku&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Parabolic SAR (파라볼릭 SAR)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=psar</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=psar&amp;lang=ko</link>
     <description><![CDATA[가격을 따라다니는 점(Stop and Reverse)을 통해 추세의 끝을 예고합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -300,14 +300,14 @@
         <h3>3. 전문가의 조언</h3>
         <p>이 지표는 시간과 가격을 동시에 고려합니다. 가격이 옆으로 횡보하면 점이 저항선처럼 다가와 결국 추세 반전 신호를 강제로 만들어냅니다. 따라서 '급격한 추세장'에서만 활용하는 것이 승률을 높이는 지름길입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=psar</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=psar&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>VWAP (거래량 가중 평균 가격)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vwap</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vwap&amp;lang=ko</link>
     <description><![CDATA[당일 거래된 모든 물량의 평균 단가를 계산하여 "진짜 가치"를 보여줍니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -320,14 +320,14 @@
         <h3>3. 전략 예시</h3>
         <p>장 초반 가격이 VWAP를 강하게 돌파하고 안착할 때 '롱(Long)' 포지션에 진입하는 것이 전형적인 성공 모델입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vwap</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vwap&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Pivot Points (피봇 포인트)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=pivot</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=pivot&amp;lang=ko</link>
     <description><![CDATA[전일 데이터를 바탕으로 오늘의 심리적 마지노선을 그어줍니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -340,44 +340,44 @@
           <li><strong>목표가 설정:</strong> 매수 진입 시 R1이나 R2를 1차, 2차 익절 목표가로 설정하는 것이 매우 과학적인 방법입니다.</li>
         </ul>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=pivot</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=pivot&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>McGinley Dynamic</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mcginley</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mcginley&amp;lang=ko</link>
     <description><![CDATA[시장이 너무 빠르면 같이 빨라지고, 느려지면 같이 느려지는 지능형 지표입니다.]]></description>
     <content:encoded><![CDATA[<p>존 맥긴리가 개발한 이 지표는 전통적인 이동평균이 가격을 제대로 못 따라가는 문제를 해결하기 위한 특수 수식을 사용합니다. 변동성이 급증할 때 지연 시간을 스스로 단축하므로, 가격과의 괴리감을 최소화합니다. '스무딩(Smoothing)'과 '반응성(Responsiveness)' 두 마리 토끼를 다 잡은 수작입니다.</p>]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mcginley</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mcginley&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Williams Fractals (프랙탈)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=fractals</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=fractals&amp;lang=ko</link>
     <description><![CDATA[캔들 패턴 속에서 가격의 상단과 하단이 고정되는 지점을 포착합니다.]]></description>
     <content:encoded><![CDATA[<p>빌 윌리엄스가 정립한 이 기법은 5개의 연속된 캔들 중 가운데가 가장 높거나 낮을 때 생성됩니다. 프랙탈이 생성되었다는 것은 '단기 변곡점'이 형성되었음을 의미합니다. 여러 프랙탈 고점들을 선으로 이으면 강력한 추세 저항선이 완성됩니다.</p>]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=fractals</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=fractals&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>Zig Zag High Low</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=zigzag</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=zigzag&amp;lang=ko</link>
     <description><![CDATA[잔파동을 모두 무시하고 굵직한 추세의 변동만 연결하여 보여줍니다.]]></description>
     <content:encoded><![CDATA[<p>지그재그 지표는 시각적 가독성을 높이기 위한 최고의 필터입니다. 가격이 일정 비율(예: 5%) 이상 변동할 때만 선을 긋습니다. 엘리어트 파동 이론이나 ABCD 패턴을 분석할 때 미세한 노이즈에 휘둘리지 않고 파동의 진짜 끝과 시작을 찾는 데 사용됩니다.</p>]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=zigzag</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=zigzag&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>overlay</category>
   </item>
   <item>
     <title>RSI (상대 강도 지수)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=rsi</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=rsi&amp;lang=ko</link>
     <description><![CDATA[상승폭과 하락폭을 비교하여 현재 시장의 과열 여부를 판단하는 필수 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -390,14 +390,14 @@
         <h3>3. 실전 필승 전략: 다이버전스</h3>
         <p>가격은 고점을 갱신하며 계속 오르는데 RSI 지표는 고점을 낮추며 하락한다면, 이는 '상승 에너지의 고갈'을 의미합니다(하락 다이버전스). 이 신호는 단순 과매수 진입보다 훨씬 강력한 하락 반전 신호가 됩니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=rsi</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=rsi&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>MACD (이동평균 수렴확산 지수)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=macd</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=macd&amp;lang=ko</link>
     <description><![CDATA[가장 신뢰도 높은 두 이동평균선의 관계를 통해 중장기 추세의 변화를 포착합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -411,14 +411,14 @@
         <h3>3. 트레이딩 팁</h3>
         <p>0선 아래 깊은 곳에서 발생하는 골든크로스는 바닥권 탈출 신호로 매우 신뢰도가 높습니다. 반대로 높은 곳에서의 데드크로스는 폭락의 전조일 수 있습니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=macd</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=macd&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Stochastic (스토캐스틱)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch&amp;lang=ko</link>
     <description><![CDATA[현재 가격이 일정 기간의 가격 변동폭 중 어디에 위치하는지를 백분율로 나타냅니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -428,14 +428,14 @@
         <h3>3. 매매 전략</h3>
         <p>과매도 구간(20 이하)에서 %K선이 %D선을 상향 돌파할 때 매수하고, 과매수 구간(80 이상)에서 하향 돌파할 때 매도합니다. 횡보장에서는 이 규칙만 지켜도 훌륭한 수익을 낼 수 있습니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Stochastic RSI</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch_rsi</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch_rsi&amp;lang=ko</link>
     <description><![CDATA[RSI 지표에 스토캐스틱 공식을 대입하여 속도를 극한으로 끌어올린 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -445,14 +445,14 @@
         <h3>3. 주의사항</h3>
         <p>신호가 너무 자주 발생하므로(Whipsaw), 반드시 추세 지표(이동평균선 등)가 가리키는 방향으로만 진입 신호를 채택하세요. 역추세 진입용으로 썼다간 잦은 손절을 부를 수 있습니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch_rsi</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=stoch_rsi&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>ATR (평균 실질 변동폭)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=atr</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=atr&amp;lang=ko</link>
     <description><![CDATA[시장의 방향이 아닌 "변동성의 크기"를 측정하여 손절과 익절 폭을 계산합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -462,14 +462,14 @@
         <h3>3. 해석</h3>
         <p>ATR 수치가 급격히 높아지면 바닥이나 천장일 확률이 높습니다. 패닉 셀링(투매)이 나올 때 ATR은 최고치를 찍습니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=atr</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=atr&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>CCI (상품 채널 지수)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=cci</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=cci&amp;lang=ko</link>
     <description><![CDATA[가격이 이동평균으로부터 얼마나 멀리 떨어져 있는지를 측정하여 통계적 과열을 진단합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -483,14 +483,14 @@
         <h3>3. 팁</h3>
         <p>RSI와 비슷해 보이지만, CCI는 상/하단 제한이 없습니다. 따라서 +200, +300과 같이 극단적인 수치가 나올수록 추세 가속도가 붙었다는 뜻입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=cci</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=cci&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>ADX (평균 방향성 지수)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=adx</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=adx&amp;lang=ko</link>
     <description><![CDATA[시장의 방향이 아닌, 추세가 얼마나 강력한지를 수치(0~100)로 보여줍니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -503,14 +503,14 @@
         <h3>3. 다이버전스</h3>
         <p>가격은 고점을 갱신하는데 ADX가 고점을 낮춘다면, 추세의 힘이 빠지고 있다는 강력한 경고입니다. 조만간 추세 반전이나 횡보가 시작될 것입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=adx</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=adx&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Aroon (아룬)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=aroon</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=aroon&amp;lang=ko</link>
     <description><![CDATA[신고가나 신저가가 발생한 시간을 추적하여 추세 시작을 알립니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -523,14 +523,14 @@
         <h3>3. 실전 전략</h3>
         <p>Aroon Up이 100을 찍고 Aroon Down이 0을 찍는 '크로스' 현상이 발생하면, 이는 단순히 강한 것이 아니라 '새로운 대세 상승장'이 시작되었음을 알리는 가장 강력한 신호입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=aroon</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=aroon&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>OBV (거래량 균형 지표)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=obv</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=obv&amp;lang=ko</link>
     <description><![CDATA[가격 변동과 거래량을 합산하여 매집과 분산을 추적합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -540,14 +540,14 @@
         <h3>3. 팁</h3>
         <p>OBV는 절대적인 수치보다 '추세의 방향'과 '전고점 돌파 여부'가 중요합니다. OBV가 직전 고점을 뚫으면 주가도 곧 고점을 뚫게 됩니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=obv</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=obv&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>MFI (자금 흐름 지수)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mfi</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mfi&amp;lang=ko</link>
     <description><![CDATA[RSI의 계산 방식에 거래량을 추가하여 신뢰도를 높인 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -560,14 +560,14 @@
         <h3>3. 전략</h3>
         <p>주가는 계속 오르는데 MFI는 고점이 낮아지는 하락 다이버전스가 발생하면, '거래량이 동반되지 않은 허수 상승'이므로 곧 추세가 붕괴됩니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mfi</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mfi&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Williams %R</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=wpr</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=wpr&amp;lang=ko</link>
     <description><![CDATA[스토캐스틱의 역산 버전으로 고점에서 얼마나 떨어졌는지 보여줍니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -580,14 +580,14 @@
         <h3>3. 실패 스윙 전략</h3>
         <p>과매도 구간을 벗어났다가 다시 과매도 구간으로 진입하지 않고 위로 턴할 때(Failure Swing), 가장 안전하고 확실한 매수 타점이 됩니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=wpr</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=wpr&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Awesome Oscillator (AO)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=awesome</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=awesome&amp;lang=ko</link>
     <description><![CDATA[두 이동평균의 차이를 히스토그램으로 나타낸 빌 윌리엄스의 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -597,14 +597,14 @@
         <h3>3. 트윈 픽 (Twin Peaks) 전략</h3>
         <p>0선 아래에서 두 개의 바닥(W형태)을 만드는데, 두 번째 바닥이 첫 번째 바닥보다 높다면? 이는 무조건적인 강력 매수 신호입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=awesome</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=awesome&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Momentum (모멘텀)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mom</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mom&amp;lang=ko</link>
     <description><![CDATA[현재 가격과 과거 일정 시점의 가격 차이를 직접 계산합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -614,14 +614,14 @@
         <h3>3. 100선 교차 전략</h3>
         <p>100(또는 0) 기준선을 상향 돌파하면 매수, 하향 돌파하면 매도하는 전략이 횡보장에서 유효합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mom</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mom&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Chaikin Volatility</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=chaikin</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=chaikin&amp;lang=ko</link>
     <description><![CDATA[고가와 저가의 거리 변화를 통해 변동성 급증을 포착합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -631,14 +631,14 @@
         <h3>3. 활용 팁</h3>
         <p>지표가 급상승할 때 가격이 박스권을 돌파한다면, 이는 매우 신뢰도 높은 '진성 돌파'입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=chaikin</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=chaikin&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Vortex Indicator (VI)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vortex</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=vortex&amp;lang=ko</link>
     <description><![CDATA[상승(VI+)과 하락(VI-) 파동의 힘을 비교하여 새로운 추세의 시작점을 포착합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -651,14 +651,14 @@
         <h3>3. 트레이딩 팁</h3>
         <p>보텍스는 추세 추종형 지표이므로, 횡보장에서는 신호가 잦습니다. 따라서 ADX나 이동평균선과 함께 사용하여 '추세장'임이 확인되었을 때 나오는 신호만 취하는 것이 승률을 높이는 방법입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vortex</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=vortex&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Percentage Price Oscillator (PPO)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ppo</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ppo&amp;lang=ko</link>
     <description><![CDATA[가격이 아닌 등락률(%)을 기반으로 하여 서로 다른 자산 간의 모멘텀을 비교할 수 있습니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -668,14 +668,14 @@
         <h3>3. MACD와의 차이</h3>
         <p>MACD는 가격이 오르면 지표 값도 같이 커지지만, PPO는 비율이므로 과거 데이터와 현재 데이터의 '강도'를 1:1로 비교 분석하기에 훨씬 유리합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ppo</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ppo&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>SMI Ergodic</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=smi</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=smi&amp;lang=ko</link>
     <description><![CDATA[TSI(True Strength Index)를 개량하여 거짓 신호를 줄이고 추세의 본질만 남겼습니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -685,14 +685,14 @@
         <h3>3. 팁</h3>
         <p>단기 매매보다는 스윙 트레이딩에 적합합니다. 추세가 한 번 잡히면 꽤 오랫동안 신호가 유지되는 경향이 있어 '추세 타기'에 최적화되어 있습니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=smi</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=smi&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Mass Index</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mass</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=mass&amp;lang=ko</link>
     <description><![CDATA[고가와 저가의 변동폭(Range)이 팽창했다가 수축하는 패턴을 통해 추세 반전을 예고합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -702,14 +702,14 @@
         <h3>3. 주의사항</h3>
         <p>매스 인덱스는 방향을 알려주지 않습니다. 오직 '곧 반전이 일어날 것임'을 알려줍니다. 따라서 방향성 판단은 이동평균선이나 추세선을 통해 별도로 해야 합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mass</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=mass&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>TRIX (Triple Exponential)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=trix</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=trix&amp;lang=ko</link>
     <description><![CDATA[지수 이동평균을 세 번이나 계산하여 미세한 파동을 모두 제거한 장기 추세 지표입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -719,14 +719,14 @@
         <h3>3. 활용</h3>
         <p>단타 매매에는 부적합하며, 주식이나 코인의 대세 상승기를 길게 가져가려는 중장기 투자자에게 최고의 나침반이 됩니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=trix</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=trix&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Coppock Curve</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=coppock</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=coppock&amp;lang=ko</link>
     <description><![CDATA[장기 투자자를 위해 개발된 지표로, 시장의 침체가 끝나고 새로운 강세장이 시작됨을 알립니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -736,14 +736,14 @@
         <h3>3. 특징</h3>
         <p>매도 신호는 제공하지 않습니다. 오직 '매수'를 위해 설계된 지표입니다. 하락장에서 멘탈이 흔들릴 때, 코폭 커브가 돌아서기 전까지는 매수 버튼을 누르지 마십시오.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=coppock</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=coppock&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>Choppiness Index</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=chop</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=chop&amp;lang=ko</link>
     <description><![CDATA[시장의 방향이 아니라 "혼잡도(Choppiness)"를 측정합니다. 추세 매매를 해도 되는지 판단하는 필터입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -756,14 +756,14 @@
         <h3>3. 팁</h3>
         <p>이 지표는 매수/매도 타이밍을 알려주지 않습니다. "어떤 전략을 쓸 것인가?"를 결정하는 환경 판단 도구로 쓰십시오.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=chop</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=chop&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>oscillator</category>
   </item>
   <item>
     <title>CVD (Cumulative Volume Delta)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp01_cvd</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp01_cvd&amp;lang=ko</link>
     <description><![CDATA[단순 거래량이 아닌 매수와 매도의 "체결 강도 차이"를 누적하여 세력의 의도를 파악합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -773,14 +773,14 @@
         <h3>3. 다이버전스 전략</h3>
         <p>가격이 신저점을 갱신했는데 CVD는 저점을 높인다면, 매도 압력이 바닥났다는 뜻입니다. 이는 V자 반등의 전조 현상으로, 공격적인 롱 포지션 진입 근거가 됩니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp01_cvd</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp01_cvd&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>FVG (Fair Value Gap)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp02_fvg</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp02_fvg&amp;lang=ko</link>
     <description><![CDATA[기관의 급격한 주문으로 인해 체결되지 않고 넘어간 가격 공백을 찾아냅니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -790,14 +790,14 @@
         <h3>3. 목표가 설정</h3>
         <p>반대로, 현재 가격 아래에 방치된 FVG는 가격을 끌어당기는 '자석' 역할을 합니다. 숏 포지션의 목표가를 설정할 때 하단의 FVG를 타겟으로 잡으십시오.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp02_fvg</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp02_fvg&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>Order Blocks (오더 블록)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp03_ob</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp03_ob&amp;lang=ko</link>
     <description><![CDATA[기관 투자자들이 물량을 모으기 위해 인위적으로 만든 마지막 하락(혹은 상승) 캔들입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -807,14 +807,14 @@
         <h3>3. 활용 전략</h3>
         <p>가격이 오더 블록 상단에 닿는 순간(Touch) 진입하고, 오더 블록 하단이 뚫리면 즉시 손절하는 방식으로 매우 손익비 좋은 매매가 가능합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp03_ob</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp03_ob&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>Z-Score Analysis</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp04_zscore</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp04_zscore&amp;lang=ko</link>
     <description><![CDATA[현재 가격이 평균으로부터 얼마나 비정상적으로(표준편차 배수) 떨어져 있는지 계산합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -827,14 +827,14 @@
         <h3>3. 팁</h3>
         <p>볼린저 밴드와 원리는 비슷하지만, Z-Score는 이를 하나의 선으로 압축하여 훨씬 직관적인 과열 분석을 제공합니다. 스캘핑 시 역추세 매매의 기준으로 삼기에 좋습니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp04_zscore</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp04_zscore&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>Squeeze Momentum (스퀴즈)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp05_squeeze</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp05_squeeze&amp;lang=ko</link>
     <description><![CDATA[볼린저 밴드가 켈트너 채널 안으로 들어가는 '수축' 현상을 포착하여 곧 있을 대폭발을 예고합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -844,14 +844,14 @@
         <h3>3. 실전 전략</h3>
         <p>스퀴즈가 풀릴 때(녹색 점 발생), 히스토그램이 상승하면 매수, 하락하면 매도하십시오. 비트코인이나 나스닥 같은 추세장에서 인생 역전급 수익을 안겨주는 패턴입니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp05_squeeze</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp05_squeeze&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>Liquidation HeatMap (청산 히트맵)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp06_liq</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp06_liq&amp;lang=ko</link>
     <description><![CDATA[레버리지 트레이더들의 강제 청산 물량이 몰려있는 가격대를 시각화하여 지지/저항을 예측합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -861,14 +861,14 @@
         <h3>3. 주의사항</h3>
         <p>청산 맵은 '자석'입니다. 가격은 청산 맵을 향해 움직이지만, 그곳을 뚫을지 찍고 반등할지는 CVD나 거래량을 보고 판단해야 합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp06_liq</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp06_liq&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>Funding Rate &amp; OI (펀딩비/미결제약정)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp07_funding</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp07_funding&amp;lang=ko</link>
     <description><![CDATA[선물 시장의 과열 여부(펀딩비)와 자금 유입 여부(미결제약정)를 통해 추세 지속성을 판별합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 펀딩비(Funding Rate) 해석</h3>
@@ -879,14 +879,14 @@
           <li><strong>가격 상승 + OI 하락:</strong> "숏커버링"입니다. 매수세가 강한 게 아니라 공매도 포기 물량이 나오는 것이므로 곧 추세가 꺾일 가능성이 큽니다.</li>
         </ul>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp07_funding</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp07_funding&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>ADR Projections (일일 변동폭 예측)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp08_adr</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp08_adr&amp;lang=ko</link>
     <description><![CDATA[과거 데이터를 기반으로 오늘의 예상 고점(High)과 저점(Low)을 확률적으로 계산합니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -896,14 +896,14 @@
         <h3>3. 확장 타겟</h3>
         <p>만약 ADR 100% 구간을 강한 거래량으로 돌파한다면, 그 날은 '특이점(Outlier)'이 발생한 날입니다. 이 경우 다음 타겟은 ADR 150%나 200% 구간으로 자동 상향 조정해야 합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp08_adr</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp08_adr&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>Volume Profile (매물대)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp09_vp</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp09_vp&amp;lang=ko</link>
     <description><![CDATA[특정 가격대에서 얼마나 많은 거래가 일어났는지를 가로 막대그래프로 보여줍니다. 진짜 지지와 저항을 찾는 도구입니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 핵심 용어</h3>
@@ -916,14 +916,14 @@
         <h3>3. LVN (Low Volume Node)</h3>
         <p>거래량이 거의 없는 진공 구간입니다. 가격이 이 구간에 진입하면 저항 없이 고속도로처럼 빠르게 통과합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp09_vp</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp09_vp&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
   </item>
   <item>
     <title>Divergence Engine (다이버전스 엔진)</title>
-    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp10_div</link>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sp10_div&amp;lang=ko</link>
     <description><![CDATA[RSI, MACD, OBV 등 주요 지표의 다이버전스를 실시간으로 자동 스캔하여 알림을 줍니다.]]></description>
     <content:encoded><![CDATA[
         <h3>1. 개요</h3>
@@ -936,10 +936,460 @@
         <h3>3. 트레이딩 팁</h3>
         <p>단일 지표의 다이버전스보다, RSI와 MACD에서 동시에 다이버전스가 뜨는 '중첩 신호'를 노리십시오. 신뢰도가 비약적으로 상승합니다.</p>
       ]]></content:encoded>
-    <pubDate>Tue, 10 Feb 2026 15:56:51 +0900</pubDate>
-    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp10_div</guid>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sp10_div&amp;lang=ko</guid>
     <dc:creator>Trandra Architect</dc:creator>
     <category>premium</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs SMA (단순 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sma&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 SMA (단순 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sma&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs WMA (가중 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_wma&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 WMA (가중 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_wma&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs VWMA (거래량 가중 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_vwma&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 VWMA (거래량 가중 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_vwma&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs HMA (헐 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_hma&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 HMA (헐 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_hma&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs DEMA (이중 지수 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_dema&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 DEMA (이중 지수 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_dema&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs TEMA (삼중 지수 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_tema&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 TEMA (삼중 지수 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_tema&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs ALMA (아르노 르구 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_alma&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 ALMA (아르노 르구 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_alma&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Bollinger Bands (볼린저 밴드): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_bb&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Bollinger Bands (볼린저 밴드)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_bb&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Donchian Channels (돈치안 채널): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_donchian&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Donchian Channels (돈치안 채널)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_donchian&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Keltner Channels (켈트너 채널): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_keltner&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Keltner Channels (켈트너 채널)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_keltner&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Supertrend (슈퍼트렌드): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_supertrend&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Supertrend (슈퍼트렌드)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_supertrend&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Ichimoku Cloud (일목균형표): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_ichimoku&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Ichimoku Cloud (일목균형표)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_ichimoku&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Parabolic SAR (파라볼릭 SAR): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_psar&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Parabolic SAR (파라볼릭 SAR)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_psar&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs VWAP (거래량 가중 평균 가격): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_vwap&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 VWAP (거래량 가중 평균 가격)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_vwap&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Pivot Points (피봇 포인트): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_pivot&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Pivot Points (피봇 포인트)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_pivot&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs McGinley Dynamic: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mcginley&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 McGinley Dynamic의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mcginley&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Williams Fractals (프랙탈): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_fractals&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Williams Fractals (프랙탈)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_fractals&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Zig Zag High Low: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_zigzag&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Zig Zag High Low의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_zigzag&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs RSI (상대 강도 지수): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_rsi&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 RSI (상대 강도 지수)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_rsi&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs MACD (이동평균 수렴확산 지수): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_macd&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 MACD (이동평균 수렴확산 지수)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_macd&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Stochastic (스토캐스틱): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_stoch&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Stochastic (스토캐스틱)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_stoch&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Stochastic RSI: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_stoch_rsi&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Stochastic RSI의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_stoch_rsi&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs ATR (평균 실질 변동폭): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_atr&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 ATR (평균 실질 변동폭)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_atr&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs CCI (상품 채널 지수): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_cci&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 CCI (상품 채널 지수)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_cci&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs ADX (평균 방향성 지수): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_adx&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 ADX (평균 방향성 지수)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_adx&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Aroon (아룬): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_aroon&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Aroon (아룬)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_aroon&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs OBV (거래량 균형 지표): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_obv&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 OBV (거래량 균형 지표)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_obv&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs MFI (자금 흐름 지수): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mfi&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 MFI (자금 흐름 지수)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mfi&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Williams %R: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_wpr&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Williams %R의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_wpr&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Awesome Oscillator (AO): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_awesome&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Awesome Oscillator (AO)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_awesome&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Momentum (모멘텀): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mom&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Momentum (모멘텀)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mom&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Chaikin Volatility: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_chaikin&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Chaikin Volatility의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_chaikin&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Vortex Indicator (VI): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_vortex&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Vortex Indicator (VI)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_vortex&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Percentage Price Oscillator (PPO): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_ppo&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Percentage Price Oscillator (PPO)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_ppo&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs SMI Ergodic: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_smi&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 SMI Ergodic의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_smi&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Mass Index: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mass&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Mass Index의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_mass&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs TRIX (Triple Exponential): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_trix&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 TRIX (Triple Exponential)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_trix&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Coppock Curve: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_coppock&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Coppock Curve의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_coppock&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Choppiness Index: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_chop&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Choppiness Index의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_chop&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs CVD (Cumulative Volume Delta): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp01_cvd&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 CVD (Cumulative Volume Delta)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp01_cvd&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs FVG (Fair Value Gap): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp02_fvg&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 FVG (Fair Value Gap)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp02_fvg&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Order Blocks (오더 블록): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp03_ob&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Order Blocks (오더 블록)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp03_ob&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Z-Score Analysis: 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp04_zscore&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Z-Score Analysis의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp04_zscore&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Squeeze Momentum (스퀴즈): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp05_squeeze&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Squeeze Momentum (스퀴즈)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp05_squeeze&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Liquidation HeatMap (청산 히트맵): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp06_liq&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Liquidation HeatMap (청산 히트맵)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp06_liq&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Funding Rate & OI (펀딩비/미결제약정): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp07_funding&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Funding Rate & OI (펀딩비/미결제약정)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp07_funding&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs ADR Projections (일일 변동폭 예측): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp08_adr&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 ADR Projections (일일 변동폭 예측)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp08_adr&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Volume Profile (매물대): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp09_vp&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Volume Profile (매물대)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp09_vp&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>EMA (지수 이동 평균) vs Divergence Engine (다이버전스 엔진): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp10_div&amp;lang=ko</link>
+    <description><![CDATA[EMA (지수 이동 평균)와 Divergence Engine (다이버전스 엔진)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=ema_vs_sp10_div&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
+  </item>
+  <item>
+    <title>SMA (단순 이동 평균) vs WMA (가중 이동 평균): 핵심 비교 분석</title>
+    <link>https://trandra-architect.pages.dev/?tab=guide&amp;id=sma_vs_wma&amp;lang=ko</link>
+    <description><![CDATA[SMA (단순 이동 평균)와 WMA (가중 이동 평균)의 차이점과 최적의 조합 전략입니다.]]></description>
+    <pubDate>Fri, 13 Feb 2026 23:24:59 +0900</pubDate>
+    <guid isPermaLink="true">https://trandra-architect.pages.dev/?tab=guide&amp;id=sma_vs_wma&amp;lang=ko</guid>
+    <dc:creator>Trandra Architect</dc:creator>
+    <category>Comparison</category>
   </item>
 </channel>
 </rss>

@@ -67,6 +67,10 @@ function App() {
       const params = new URLSearchParams(window.location.search);
       const tab = params.get('tab');
       const id = params.get('id');
+      const l = params.get('lang');
+
+      if (l === 'en') setLang('EN');
+      else if (l === 'ko') setLang('KR');
 
       if (tab === 'guide') {
         setActiveTab(2);
@@ -90,6 +94,7 @@ function App() {
     if (activeTab === 2) {
       params.set('tab', 'guide');
       if (selectedIndicatorId) params.set('id', selectedIndicatorId);
+      params.set('lang', lang === 'KR' ? 'ko' : 'en');
     }
 
     const newQuery = params.toString();
@@ -103,20 +108,44 @@ function App() {
 
     // Dynamic Title for SEO
     if (activeTab === 2 && selectedIndicatorId) {
-      const guideData = GUIDES.find(g => g.id === selectedIndicatorId);
-      if (guideData) {
-        const langKey = lang === 'KR' ? 'ko' : 'en';
-        const guide = guideData[langKey];
-        document.title = `${guide.name} - ${lang === 'KR' ? '지표 백과사전' : 'Indicator Wiki'} | Trandra Architect`;
+      const isMatchup = selectedIndicatorId.includes('_vs_');
+      let title = '';
+      let desc = '';
 
-        // Dynamic Meta Description for SEO
+      if (isMatchup) {
+        const [id1, id2] = selectedIndicatorId.split('_vs_');
+        const g1 = GUIDES.find(g => g.id === id1);
+        const g2 = GUIDES.find(g => g.id === id2);
+
+        if (g1 && g2) {
+          const langKey = lang === 'KR' ? 'ko' : 'en';
+          if (lang === 'KR') {
+            title = `${g1[langKey].name} vs ${g2[langKey].name}: 어떤 지표가 더 좋을까? 핵심 비교 분석 | Trandra Architect`;
+            desc = `${g1[langKey].name}와 ${g2[langKey].name}의 차이점, 장단점, 그리고 두 지표를 함께 사용하여 승률을 높이는 최적의 매매 전략을 확인하세요.`;
+          } else {
+            title = `${g1[langKey].name} vs ${g2[langKey].name}: Comparison & Ultimate Strategy Guide | Trandra Architect`;
+            desc = `Discover the differences between ${g1[langKey].name} and ${g2[langKey].name}. Learn their pros, cons, and how to combine them for a high-probability trading setup.`;
+          }
+        }
+      } else {
+        const guideData = GUIDES.find(g => g.id === selectedIndicatorId);
+        if (guideData) {
+          const langKey = lang === 'KR' ? 'ko' : 'en';
+          const guide = guideData[langKey];
+          title = `${guide.name} - ${lang === 'KR' ? '지표 백과사전' : 'Indicator Wiki'} | Trandra Architect`;
+          desc = guide.description;
+        }
+      }
+
+      if (title) {
+        document.title = title;
         let metaDesc = document.querySelector('meta[name="description"]');
         if (!metaDesc) {
           metaDesc = document.createElement('meta');
           metaDesc.name = 'description';
           document.head.appendChild(metaDesc);
         }
-        metaDesc.content = guide.description;
+        metaDesc.content = desc;
       }
     } else if (activeTab === 2) {
       document.title = lang === 'KR' ? '지표 백과사전 - 전문 트레이딩 지식 가이드 | Trandra Architect' : 'Indicator Wiki - Professional Trading Knowledge | Trandra Architect';
